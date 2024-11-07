@@ -16,18 +16,18 @@ The function takes two arrays as input and outputs the result of their dot produ
 ## Part B: File Operations and Main
 In this section, most of the code is already completed and only requires minor modifications.
 
-### read_matrix : 
+### Task 1: Read Matrix (read_matrix) 
 In read_matrix, the only modification is changing mul to a format compatible with RV32I. Here, the same method used in dot is applied.
 
-### write_matrix : 
+### Task 2: Write Matrix (write_matrix)
 In write_matrix, the only modification is changing mul to a format compatible with RV32I. Here, the same method used in dot is applied.
 
-### classify : 
+### Task 3: Classification (classify) 
 In classify, the only modification is changing mul to a format compatible with RV32I. Here, the same method used in dot is applied.
 
+## Others :
 ### main : 
 The main function calls classify to complete the entire MNIST digit recognition process.
 
-## Others :
-### [abs](https://github.com/annie58221/classify-rv32i/blob/main/src/abs.s) : 
+### abs : 
 The functionality to take the absolute value of an input number is not used in the subsequent steps. The approach for this function is to first check if the number a is less than 0; if it is, use sub to change a to -a.

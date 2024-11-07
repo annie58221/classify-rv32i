@@ -14,6 +14,8 @@ The function takes two arrays as input and outputs the result of their dot produ
 ### Task 3.2: Matrix Multiplication (matmul)
 
 ## Part B: File Operations and Main
+In this section, most of the code is already completed and only requires minor modifications.
+
 ### read_matrix : 
 In read_matrix, the only modification is changing mul to a format compatible with RV32I. Here, the same method used in dot is applied.
 

@@ -1,6 +1,7 @@
 # Assignment 2: Classify
 
 ## Part A: Mathematical Functions
+In this assignment, most of our work involves completing the fill-in-the-blank sections in this part.
 ### Task1 : ReLU
 
 ### Task2 : ArgMax 

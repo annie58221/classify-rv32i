@@ -3,6 +3,7 @@
 ## Part A: Mathematical Functions
 In this assignment, most of our work involves completing the fill-in-the-blank sections in this part.
 ### Task1 : ReLU
+The function of ReLU is to output 0 if the number is less than 0, and output the original value if it is greater than or equal to 0. In this function, the input is an array, and the output is the result of applying ReLU to each of the numbers in the array, storing the result back in the original array.The approach is to use a loop to go through all the numbers in the array. If a number is greater than or equal to 0, it is kept as is; if it is less than 0, it is set to 0 and stored back in the original array.
 
 ### Task2 : ArgMax 
 The functionality takes an input array and outputs the position of the maximum value. If there are multiple maximum values, it outputs the position of the first occurrence. The approach for this function is to use a loop to load each element, recording the value and position of the maximum. After the loop completes, it outputs the position of the maximum value.

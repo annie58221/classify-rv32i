@@ -1,8 +1,5 @@
 # Assignment 2: Classify
 
-### abs : 
-The functionality to take the absolute value of an input number is not used in the subsequent steps. The approach for this function is to first check if the number a is less than 0; if it is, use sub to change a to -a.
-
 ## Part A: Mathematical Functions
 ### Task1 : ReLU
 
@@ -26,3 +23,7 @@ In classify, the only modification is changing mul to a format compatible with R
 
 ### main : 
 The main function calls classify to complete the entire MNIST digit recognition process.
+
+## Others :
+### abs : 
+The functionality to take the absolute value of an input number is not used in the subsequent steps. The approach for this function is to first check if the number a is less than 0; if it is, use sub to change a to -a.

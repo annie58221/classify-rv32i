@@ -83,8 +83,6 @@ inner_loop_end:
     j outer_loop_start
 
 outer_loop_end:
-
-    # Epilogue
     lw s0, 0(sp)
     lw s1, 4(sp)
     lw s2, 8(sp)

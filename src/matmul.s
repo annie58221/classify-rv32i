@@ -120,9 +120,7 @@ inner_loop_end:
     addi s0, s0, 1			# outer loop counter ++
     j outer_loop_start
     
-    
 outer_loop_end:
-
     lw ra, 0(sp)
     lw s0, 4(sp)
     lw s1, 8(sp)
@@ -132,8 +130,6 @@ outer_loop_end:
     lw s5, 24(sp)
     addi sp, sp, 28
 	jr ra
-
-length1:
 
 error:
     li a0, 38
